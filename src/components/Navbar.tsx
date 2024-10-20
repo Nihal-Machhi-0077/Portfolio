@@ -13,7 +13,7 @@ export default function Navbar() {
         <Fan className='w-10 h-10 text-black animate-spin' />
       </Link>
       <div className="hidden md:flex items-center space-x-6">
-        <Link href="/work" className="text-gray-700 hover:text-gray-900 font-light text-sm">WORK</Link>
+        <Link href="/" className="text-gray-700 hover:text-gray-900 font-light text-sm">WORK</Link>
         <Link href="/about" className="text-gray-700 hover:text-gray-900 font-light text-sm">ABOUT</Link>
         <Link href="/resume" className="text-gray-700 hover:text-gray-900 font-light text-sm">RESUME</Link>
         <button className="bg-gray-900 text-white px-4 py-2 text-sm font-light">EMAIL</button>
@@ -32,7 +32,7 @@ export default function Navbar() {
       </div>
       {isMenuOpen && (
         <div className="absolute top-16 left-0 right-0 bg-white shadow-md py-2 px-4 md:hidden z-50">
-          <Link href="/work" className="block py-2 text-gray-700 hover:text-gray-900 font-light text-sm">WORK</Link>
+          <Link href="/" className="block py-2 text-gray-700 hover:text-gray-900 font-light text-sm">WORK</Link>
           <Link href="/about" className="block py-2 text-gray-700 hover:text-gray-900 font-light text-sm">ABOUT</Link>
           <Link href="/resume" className="block py-2 text-gray-700 hover:text-gray-900 font-light text-sm">RESUME</Link>
           <button className="block w-full text-left py-2 text-gray-700 hover:text-gray-900 font-light text-sm">EMAIL</button>
